@@ -41,8 +41,7 @@ group :development do
   gem 'capistrano-rails'
   # gem 'capistrano-rbenv'
   # Add this if you're using rvm
-  # gem 'capistrano-rvm'
-  gem 'rvm-capistrano'
+  gem 'capistrano-rvm'
 end
 
 group :development, :test do
