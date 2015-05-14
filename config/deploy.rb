@@ -11,7 +11,7 @@ set :deploy_via, :remote_cache
 set :use_sudo, false
 
 set :scm, "git"
-set :repository, "git@github.com:username/#{application}.git"
+set :repository, "https://github.com/azhao1981/#{application}.git"
 set :branch, "master"
 
 
